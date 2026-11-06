@@ -27,7 +27,7 @@ representation geometry, benchmarks of the localized fine-tuning) and one plot s
 ## Repository structure
 
 ```text
-multimodal_abstraction/
+MultimodalAbstraction/
 ├── figures/                          one plot script per figure: PDF in out/, PNG in out_png/
 ├── scripts/                          experiment entry points
 │   ├── interventions/                multimodal.py, text.py: layer skip, attention knockout
@@ -105,7 +105,7 @@ repository.
 
 
 ### Datastes
- 
+
 Datasets on the Hub: the captioned VQA sets for the representation experiments
 (`l11p/VQAv2-COCO-restval-ICQ`, `l11p/COCOQA-restval-ICQA`, `l11p/GQA-val-balanced-noyesno-captioned`,
 `l11p/MMBench_EN-dev-captioned`, `l11p/SEED-Bench-images-captioned`; the fixed VQAv2 and COCO-QA
